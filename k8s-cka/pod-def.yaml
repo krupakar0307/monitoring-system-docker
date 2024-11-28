@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: krupakar-pod
+  labels: 
+    app: frontend
+    type: pod
+spec:
+  containers:
+  - name: app
+    image: nginx
+  - name: app2
+    image: ubuntu
+    args: 
+    - sleep
+    - "10"

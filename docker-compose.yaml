@@ -38,7 +38,7 @@ services:
       - TZ=UTC
 
   jenkins:
-    image: jenkins/jenkins:latest
+    image: jenkins/jenkins:2.485
     container_name: jenkins
     networks:
       - monitoring
