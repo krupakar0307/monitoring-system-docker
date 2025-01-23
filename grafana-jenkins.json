@@ -32,7 +32,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -98,7 +98,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "expr": "up{instance=\"jenkins:8080\",job=\"jenkins\"}",
           "refId": "A"
@@ -110,7 +110,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -161,7 +161,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "default_jenkins_version_info",
@@ -176,7 +176,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -226,7 +226,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_plugins_active",
@@ -240,7 +240,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -290,7 +290,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_plugins_inactive",
@@ -304,7 +304,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -354,7 +354,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_plugins_withUpdate",
@@ -953,7 +953,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "UbXBw8MHz"
+        "uid": "5HM5wKdNz"
       },
       "fieldConfig": {
         "defaults": {
@@ -1052,7 +1052,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_executor_count_value",
@@ -1063,7 +1063,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_node_count_value",
@@ -1075,7 +1075,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "UbXBw8MHz"
+            "uid": "5HM5wKdNz"
           },
           "editorMode": "code",
           "expr": "jenkins_queue_size_value",
