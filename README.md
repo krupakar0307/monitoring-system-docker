@@ -65,9 +65,12 @@ Final view can be seen as:
 (Ignore docker monitoring)
 # Jenkins Monitoring
 ![Jenkins Monitoring](assets/jenkins-monit.png)
+--------------------------------------
+
 # Docker Monitoring
 
 ![Docker Monitoring](assets/docker-monit.png)
+--------------------------------------
 
 That's all 🤘
 
