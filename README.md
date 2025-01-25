@@ -39,6 +39,7 @@ and similarly configure Autostatus config to send all job details and click save
 ![Autostatus Config](assets/autostatus-config-influx.png)
 Since we're running on docker-compose, all host urls will be the container names instead of `localhost`
 
+
 here the difference between prometheus and influxDB metrics are, where prometheus scrapes metrics about the jenkins server metrics such as cpu, memory etc and jobs metrics like job counts etc. you can view on /prometheus endpoint (`localhost:8080/prometheus`)
 [!prometheus-endpoint](assets/promethues-ep.png)
 
@@ -62,6 +63,9 @@ Now we're set!!!
 ### step 4:
 In grafana by using promQL queries, selected metrics can be views and constructed in dashboards.
 - you can use `grafana-jenkins.json` file, upload it to create dashboard and do necessary datasource mapping for data fetching.
+![datasource adding](assets/datasource.png)
+
+
 Final view can be seen as:
 (Ignore docker monitoring)
 # Jenkins Monitoring
